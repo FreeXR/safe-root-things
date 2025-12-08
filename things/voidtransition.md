@@ -21,4 +21,4 @@ Enable Void Transistion
 oculuspreferences --setc shell_immersive_transitions_enabled false
 am force-stop com.oculus.vrshell
 ```
-This persists across reboots and is safe to use.
+This does not persist across reboots and is safe to use.
