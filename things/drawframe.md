@@ -3,7 +3,7 @@
 exit = ctrl + c (stops the current process)
 
 
-the command (root not required):
+the command:
 
 ```
 while true; do draw_frame -r 255 & p=$!; sleep 1; kill $p; draw_frame -g 255 & p=$!; sleep 1; kill $p; draw_frame -b 255 & p=$!; sleep 1; kill $p; done
