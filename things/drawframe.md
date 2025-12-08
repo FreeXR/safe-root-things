@@ -1,18 +1,22 @@
-## Rainbow draw_frame thing
+## Rainbow draw_frame loop
 
-exit = ctrl + c (stops the current process)
+Enter the shell:
 
+```
+adb shell
+```
 
-the command:
+The Rainbow Loop
 
 ```
 while true; do draw_frame -r 255 & p=$!; sleep 1; kill $p; draw_frame -g 255 & p=$!; sleep 1; kill $p; draw_frame -b 255 & p=$!; sleep 1; kill $p; done
 ```
 
-if you want to exit out of the loop then exit the process.
-if the frame gets stuck then do:
+Exit out of the loop
 
 ```
+(ctrl + c)
 draw_frame
+(ctrl + c)
 ```
-and then exit again, if the frame persists reboot the headset i guess
+This does not persist across reboots and is safe to use. If the frame persists however after exiting out of the loop then exit out again except skip the first key combo
