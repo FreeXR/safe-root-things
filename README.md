@@ -22,3 +22,4 @@ This repository contains a list of safe root things to do.
 | Utilites/Info |
 | [**Dogfood Hub**](https://github.com/FreeXR/safe-root-things/blob/main/things/dogfood_hub.md) | Enables Dogfood Hub | eureka/panther | Root Shell | run in adb
 | [**Get Controller Info**](https://github.com/FreeXR/safe-root-things/blob/main/things/controllerinfo.md) | Retrieves detailed controller information | eureka/panther | Shell | `adb shell`
+| [**Rainbow draw_frame**](https://github.com/FreeXR/safe-root-things/blob/main/things/drawframe.md) | Make your headset screen go rainbow | eureka/panther? | Shell | `adb shell`
